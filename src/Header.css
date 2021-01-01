@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.header__left > a > img {
+  object-fit: contain;
+  height: 60px;
+  margin-left: 5px;
+}
+.header__middle {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+.header__middle > .MulSvgIcon-root {
+  color: gray;
+}
+.header__middle > input {
+  border: none;
+  width: 100%;
+  padding: 7px 10px;
+  outline: none;
+  background-color: transparent;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
